@@ -1,0 +1,26 @@
+{
+    "name": "tui/geocoder-bundle",
+    "description": "Symfony2 geocoder for UK postcodes",
+    "keywords": ["symfony", "doctrine", "geolocation", "postcode"],
+    "type": "symfony-bundle",
+    "require": {
+        "guzzle/guzzle": "~3.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matt Robinson",
+            "email": "matt@tui.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "Tui\\GeocoderBundle": "" }
+    },
+    "target-dir": "Tui/GeocoderBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "develop"
+        }
+    },
+    "minimum-stability": "stable"
+}
