@@ -12,7 +12,7 @@
 
     <services>
         <service id="tui_geocoder.ukgeocode_listener" class="%tui_geocoder.ukgeocode_listener.class%">
-            <argument type="service" id="simplyhealth.locator_api"/>
+            <argument type="service" id="tui_geocoder.locator_api"/>
             <tag name="doctrine.event_listener" event="prePersist"/>
             <tag name="doctrine.event_listener" event="preUpdate"/>
         </service>
